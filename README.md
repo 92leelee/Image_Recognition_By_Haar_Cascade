@@ -15,6 +15,7 @@ The purpose of this project is to allow the camera to detect the target
 
 ## How to Train
 ```bash
+
 1.繪出正樣本:"C:\opencv2\opencv\build\x64\vc15\bin\opencv_annotation.exe" --annotations=annotations.txt --images=D:\你的路徑\cat\p
 2.產生vec檔 :"C:\opencv2\opencv\build\x64\vc15\bin\opencv_createsamples.exe" -info annotations.txt -vec positives.vec -num 100 -w 24 -h 24
 3.準備bg.txt檔(負樣本清單) :dir /b /s "C:\Users\你的名字\Desktop\cat\n\*.jpg" > bg.txt
