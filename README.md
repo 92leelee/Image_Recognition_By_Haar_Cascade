@@ -10,7 +10,7 @@ The purpose of this project is to allow the camera to detect the target
 ## How to run
 [螢幕擷取畫面 2025-06-20 112824](https://github.com/user-attachments/assets/4ccf4446-ade0-45c3-9250-4e9e603a254f)
 ```bash
-
+直接跑run.py的程式碼即可完成
 ```
 
 ## How to Train
